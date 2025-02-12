@@ -3,7 +3,6 @@
 interface Hello {
     lang?: string //facultatif
     name: string
-    firstName: string
 }
 
 export default function Hello(props: Hello) {
@@ -12,7 +11,7 @@ export default function Hello(props: Hello) {
     }
 
     return (
-        <div>Bienvenue <strong>{props.firstName}</strong></div>
+        <div>Bienvenue <strong>{props.name}</strong></div>
     )
     
         
