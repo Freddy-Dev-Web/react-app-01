@@ -19,7 +19,7 @@ const countryList:Array<CountryType> = [
         name: "Portugal",
         capitale: "Lisbon",
         population: 10000000,
-        flag: "./img/portugual.jpg"
+        flag: './img/portugual.png'
     }
 ];
 
