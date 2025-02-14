@@ -1,10 +1,10 @@
 
 import { createRoot } from 'react-dom/client'
 // import './index.css'
-import CountryApp from './03/CountryApp'
+import PaysApp from './04/PaysApp'
 
 
 createRoot(document.getElementById('root')!).render(
 
-   <CountryApp />
+   <PaysApp />
 )
