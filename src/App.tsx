@@ -1,12 +1,12 @@
 
-import './App.css'
-import Dashboard from './components/parent/Dashboard'
+import AppParent from './05/Parent/AppParent'
+import './index.css'
 
 
 function App() {
     return (
         <div>
-            <Dashboard />
+            <AppParent />
             
         </div>
     )
