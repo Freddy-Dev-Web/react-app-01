@@ -1,13 +1,12 @@
 
-import AppParent from './05/Parent/AppParent'
 import './index.css'
+import FormApp from './06/Form02'
 
 
 function App() {
     return (
         <div>
-            <AppParent />
-            
+            <FormApp />
         </div>
     )
 }
